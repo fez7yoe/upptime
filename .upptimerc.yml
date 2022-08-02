@@ -26,7 +26,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "歡迎來到 fez7yoe 的監控網站狀態頁面"
-  introMessage: 由於發生 **監控的網站名稱使用中文，造成系統無法自動產生歷史頁面、狀態圖<br>以及 README.md 的 shields.io 徽標** 的情況<br>待 Upptime 作者支援相關內容前，我先將監控的網站名稱改成易懂的英文詞句以方便辨識
+  introMessage: 由於發生 **監控的網站名稱使用中文，會造成系統無法自動產生歷史頁面、狀態圖<br>以及 README.md 的 shields.io 徽標** 的情況<br>待 Upptime 作者支援相關內容前，我先將監控的網站名稱改成易懂的英文詞句以方便辨識
   navbar:
     - title: 首頁
       href: https://fez7yoe.github.io/upptime
