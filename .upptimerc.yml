@@ -56,13 +56,13 @@ i18n:
   incidentBack: ← 返回所有事件
   pastIncidents: 過去的事件
   pastIncidentsResolved: $POSTS 個問題在 $MINUTES 分鐘內得到解決
-  liveStatus: 實時狀態
-  overallUptime: "總體正常執行時間: $UPTIME"
+  liveStatus: 即時狀態
+  overallUptime: "總體正常執行時間：$UPTIME"
   overallUptimeTitle: 總體正常執行時間
-  averageResponseTime: "平均響應時間: $TIMEms"
-  averageResponseTimeTitle: 平均響應時間
-  sevelDayResponseTime: 7 天響應時間
-  responseTimeMs: 響應時間（毫秒）
+  averageResponseTime: "平均回應時間：$TIMEms"
+  averageResponseTimeTitle: 平均回應時間
+  sevelDayResponseTime: 7 天回應時間
+  responseTimeMs: 回應時間（毫秒）
   up: 正常執行
   down: 停機
   degraded: 執行緩慢
@@ -73,7 +73,7 @@ i18n:
   rateLimitExceededTitle: 超出速率限制
   rateLimitExceededIntro: 您已超過一小時內可以執行的請求數，因此您必須等待才能再次訪問此網站。或者，您可以新增 GitHub 個人訪問令牌以繼續使用本網站。
   rateLimitExceededWhatDoesErrorMean: 這個錯誤是什麼意思？
-  rateLimitExceededErrorMeaning: 本網站使用 GitHub API 訪問有關我們網站狀態的實時資料。預設情況下，GitHub 允許每個 IP 地址每小時 60 個請求，您已經消耗了這些請求。
+  rateLimitExceededErrorMeaning: 本網站使用 GitHub API 訪問有關我們網站狀態的即時資料。預設情況下，GitHub 允許每個 IP 地址每小時 60 個請求，您已經消耗了這些請求。
   rateLimitExceededErrorHowCanFix: 我該如何解決？
   rateLimitExceededErrorFix: 您可以再等一個小時，您的 IP 地址限制將恢復。或者，您可以新增您的 GitHub 個人訪問令牌，這將為您提供每小時額外 5,000 個請求。
   rateLimitExceededGeneratePAT: 瞭解如何生成個人訪問令牌
@@ -99,25 +99,25 @@ i18n:
   url: "連結"
   status: "狀態"
   history: "歷史"
-  responseTime: "響應時間"
+  responseTime: "回應時間"
   uptime: "正常執行時間"
   # up: "🟩 正常執行"
   # degraded: "🟨 執行緩慢"
   # down: "🟥 停機"
-  responseTimeGraphAlt: "響應時間圖"
+  responseTimeGraphAlt: "回應時間圖"
   # ms: "毫秒"
-  # responseTime: "響應時間"
-  responseTimeDay: "24 小時正常響應時間"
-  responseTimeWeek: "7 天正常響應時間"
-  responseTimeMonth: "30 天的正常響應時間"
-  responseTimeYear: "1 年的正常響應時間"
+  # responseTime: "回應時間"
+  responseTimeDay: "24 小時正常回應時間"
+  responseTimeWeek: "7 天正常回應時間"
+  responseTimeMonth: "30 天的正常回應時間"
+  responseTimeYear: "1 年的正常回應時間"
   # uptime: "全天候正常運行時間"
   uptimeDay: "24 小時正常執行時間"
   uptimeWeek: "7 天正常執行時間"
   uptimeMonth: "30 天的正常執行時間"
   uptimeYear: "1 年的正常執行時間"
-  # liveStatus: "實時狀態"
-  liveStatusHtmlComment: "<!--實時狀態-->"
+  # liveStatus: "即時狀態"
+  liveStatusHtmlComment: "<!--即時狀態-->"
   # allSystemsOperational: "🟩 正常執行"
   degradedPerformance: "🟨 效能降低"
   completeOutage: "🟥 全部停機"
