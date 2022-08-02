@@ -47,8 +47,8 @@ status-website:
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** 是開源的正常運行時間監控和狀態頁面，完全由 GitHub 提供支持。"
-  introMessage: 這是一個示例狀態頁面，它使用來自我們 [Github 存儲庫](https://github.com/koj-co/upptime) 的實時數據，不需要服務器——只需要 GitHub Actions、Issues 和 Pages。
+  introTitle: "**Upptime** 是開源的正常運行時間監控和狀態頁面<br>完全由 GitHub 提供支持。"
+  introMessage: 這是一個示例狀態頁面，它使用來自我們 [Github 存儲庫](https://github.com/koj-co/upptime) 的實時數據<br>不需要服務器——只需要 GitHub Actions、Issues 和 Pages。
   navbar:
     - title: Status
       href: /
