@@ -12,7 +12,7 @@ sites:
       - 404
   - name: Wikipedia - 維基百科
     url: https://en.wikipedia.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/b/b0/Wikipedia-favicon.png
+    icon: https://domain.glass/favicon/tolololpedia.org.png
     expectedStatusCodes:
       - 200
       - 201
@@ -39,7 +39,8 @@ sites:
       - 404
 
 status-website:
-  theme: ocean
+  theme: dark
+  faviconSvg: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
