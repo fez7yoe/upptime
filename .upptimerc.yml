@@ -4,33 +4,6 @@ repo: upptime # The name of this repository
 user-agent: fez7yoe
 
 sites:
-  - name: Google
-    url: https://www.google.com
-    icon: https://www.google.com/favicon.ico
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-    icon: https://domain.glass/favicon/tolololpedia.org.png
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
-  - name: Hacker News
-    url: https://news.ycombinator.com
-    icon: https://news.ycombinator.com/y18.gif
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
   - name: My Blog
     url: https://fez7yoe.github.io
     icon: https://raw.githubusercontent.com/fez7yoe/fez7yoe.github.io/master/img/favicon.png
@@ -61,12 +34,12 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
+  graphs: "0 */8 * * *"
+  responseTime: "0 */8 * * *"
+  staticSite: "0 */8 * * *"
+  summary: "0 */8 * * *"
+  updateTemplate: "0 */8 * * *"
+  updates: "0 */8 * * *"
   uptime: "*/5 * * * *"
 
 i18n:
@@ -98,7 +71,7 @@ i18n:
   ms: 毫秒
   loading: 載入中
   navGitHub: GitHub
-  footer: Powered by [Upptime](https://upptime.js.org)
+  footer: <p><a style="width:auto;height:32px;margin-inline:5px" target="_blank" href="https://upptime.js.org"><img src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/logo.svg" title="Powered by Upptime"></a></p>
   rateLimitExceededTitle: 超出速率限制
   rateLimitExceededIntro: 您已超過一小時內可以執行的請求數，因此您必須等待才能再次訪問此網站。或者，您可以新增 GitHub 個人訪問令牌以繼續使用本網站。
   rateLimitExceededWhatDoesErrorMean: 這個錯誤是什麼意思？
