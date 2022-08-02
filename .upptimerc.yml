@@ -69,12 +69,6 @@ workflowSchedule:
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
 
-curl \
-  -X POST \
-  -H "Accept: application/vnd.github.v3+json" \
-  https://api.github.com/repos/user/repo/dispatches \
-  -d '{ "event_type": "setup" }'
-
 i18n:
   activeIncidents: 活動事件
   allSystemsOperational: 所有系統都可以正常執行
