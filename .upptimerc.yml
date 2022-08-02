@@ -82,10 +82,10 @@ i18n:
   averageResponseTimeTitle: 平均響應時間
   sevelDayResponseTime: 7 天響應時間
   responseTimeMs: 響應時間（毫秒）
-  up: 正常執行
-  down: 停機
-  degraded: 執行緩慢
-  ms: 毫秒
+  # up: 正常執行
+  # down: 停機
+  # degraded: 執行緩慢
+  # ms: 毫秒
   loading: 載入中
   navGitHub: GitHub
   footer: Powered by [Upptime](https://upptime.js.org)
@@ -120,7 +120,7 @@ i18n:
   history: "歷史"
   responseTime: "響應時間"
   uptime: "正常執行時間"
-  # up: "🟩 正常執行"
+  up: "🟩 正常執行"
   degraded: "🟨 執行緩慢"
   down: "🟥 停機"
   responseTimeGraphAlt: "響應時間圖"
