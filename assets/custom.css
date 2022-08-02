@@ -1,0 +1,8 @@
+@font-face{
+  font-family:'LXGWWenKai-Regular' ;
+  src:url('https://github.com/fez7yoe/My-Fonts-File/raw/main/lxgw-wenkai/v1.235.2/LXGWWenKai-Regular.ttf');
+  font-display : swap;
+}
+body {
+    font-family: 'LXGWWenKai-Regular';
+}
