@@ -41,6 +41,9 @@ sites:
 status-website:
   theme: night
   faviconSvg: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  links:
+    - rel: stylesheet
+      href: https://github.com/fez7yoe/upptime/blob/master/assets/custom.css
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
