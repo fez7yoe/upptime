@@ -29,6 +29,8 @@ status-website:
       href: https://fez7yoe.github.io/upptime
     - title: 回到部落格
       href: https://fez7yoe.github.io
+    - title: 此頁面專案
+      href: https://github.com/fez7yoe/upptime
 
 workflowSchedule:
   graphs: "0 */1 * * *"
