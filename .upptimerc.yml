@@ -3,34 +3,34 @@ owner: fez7yoe # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google - 估狗
+  - name: Google
     url: https://www.google.com
     icon: https://www.google.com/favicon.ico
     expectedStatusCodes:
       - 200
       - 201
       - 404
-  - name: Wikipedia - 維基百科
+  - name: Wikipedia
     url: https://en.wikipedia.org
     icon: https://domain.glass/favicon/tolololpedia.org.png
     expectedStatusCodes:
       - 200
       - 201
       - 404
-  - name: Hacker News - 駭客新聞
+  - name: Hacker News
     url: https://news.ycombinator.com
     icon: https://news.ycombinator.com/y18.gif
     expectedStatusCodes:
       - 200
       - 201
       - 404
-  - name: Test Broken Site - 這是壞掉的例子
+  - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
     expectedStatusCodes:
       - 200
       - 201
       - 404
-  - name: 小被被好好摸 - 我的個人部落格
+  - name: 小被被好好摸
     url: https://fez7yoe.github.io
     icon: https://raw.githubusercontent.com/fez7yoe/fez7yoe.github.io/master/img/favicon.png
     expectedStatusCodes:
@@ -58,6 +58,89 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: 活動事件
+  allSystemsOperational: 所有系統都可以正常執行
+  incidentReport: "事件 #$NUMBER 報告 →"
+  activeIncidentSummary: 在 $DATE 開啟，有 $POSTS 個帖子
+  incidentTitle: 事件 $NUMBER 的詳細資訊
+  incidentDetails: 事件詳細資訊
+  incidentFixed: 已修復
+  incidentOngoing: 正在進行
+  incidentOpenedAt: 開始於
+  incidentClosedAt: 結束於
+  incidentViewOnGitHub: 在 GitHub 上檢視
+  incidentCommentSummary: 由 $AUTHOR 在 $DATE 釋出
+  incidentBack: ← 返回所有事件
+  pastIncidents: 過去的事件
+  pastIncidentsResolved: $POSTS 個問題在 $MINUTES 分鐘內得到解決
+  liveStatus: 實時狀態
+  overallUptime: "總體正常執行時間: $UPTIME"
+  overallUptimeTitle: 總體正常執行時間
+  averageResponseTime: "平均響應時間: $TIMEms"
+  averageResponseTimeTitle: 平均響應時間
+  sevelDayResponseTime: 7 天響應時間
+  responseTimeMs: 響應時間（毫秒）
+  up: 正常執行
+  down: 停機
+  degraded: 執行緩慢
+  ms: 毫秒
+  loading: 載入中
+  navGitHub: GitHub
+  footer: Powered by [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: 超出速率限制
+  rateLimitExceededIntro: 您已超過一小時內可以執行的請求數，因此您必須等待才能再次訪問此網站。或者，您可以新增 GitHub 個人訪問令牌以繼續使用本網站。
+  rateLimitExceededWhatDoesErrorMean: 這個錯誤是什麼意思？
+  rateLimitExceededErrorMeaning: 本網站使用 GitHub API 訪問有關我們網站狀態的實時資料。預設情況下，GitHub 允許每個 IP 地址每小時 60 個請求，您已經消耗了這些請求。
+  rateLimitExceededErrorHowCanFix: 我該如何解決？
+  rateLimitExceededErrorFix: 您可以再等一個小時，您的 IP 地址限制將恢復。或者，您可以新增您的 GitHub 個人訪問令牌，這將為您提供每小時額外 5,000 個請求。
+  rateLimitExceededGeneratePAT: 瞭解如何生成個人訪問令牌
+  rateLimitExceededHasSet: 您有一個個人訪問令牌集。
+  rateLimitExceededRemoveToken: 刪除令牌
+  rateLimitExceededGitHubPAT: GitHub 個人訪問令牌
+  rateLimitExceededCopyPastePAT: 複製並貼上您的令牌
+  rateLimitExceededSaveToken: 儲存令牌
+  errorTitle: 發生錯誤
+  errorIntro: 嘗試獲取最新狀態詳細資訊時出錯。
+  errorText: 您可以稍後再試。
+  errorHome: 轉到主頁
+  pastScheduledMaintenance: 過去的預定維護
+  scheduledMaintenance: 定期維護
+  scheduledMaintenanceSummaryStarted: 從 $DATE 開始，持續 $DURATION 分鐘
+  scheduledMaintenanceSummaryStarts: 從 $DATE 開始，持續 $DURATION 分鐘
+  startedAt: 開始在
+  startsAt: 開始於
+  duration: 持續時間
+  durationMin: $DURATION 分鐘
+  incidentCompleted: 已完成
+  incidentScheduled: 已預定
+  url: "連結"
+  status: "狀態"
+  history: "歷史"
+  responseTime: "響應時間"
+  uptime: "正常執行時間"
+  up: "🟩 正常執行"
+  degraded: "🟨 執行緩慢"
+  down: "🟥 停機"
+  responseTimeGraphAlt: "響應時間圖"
+  ms: "毫秒"
+  responseTime: "響應時間"
+  responseTimeDay: "24 小時正常響應時間"
+  responseTimeWeek: "7 天正常響應時間"
+  responseTimeMonth: "30 天的正常響應時間"
+  responseTimeYear: "1 年的正常響應時間"
+  uptime: "全天候正常運行時間"
+  uptimeDay: "24 小時正常執行時間"
+  uptimeWeek: "7 天正常執行時間"
+  uptimeMonth: "30 天的正常執行時間"
+  uptimeYear: "1 年的正常執行時間"
+  liveStatus: "實時狀態"
+  liveStatusHtmlComment: "<!--實時狀態-->"
+  allSystemsOperational: "🟩 正常執行"
+  degradedPerformance: "🟨 效能降低"
+  completeOutage: "🟥 全部停機"
+  partialOutage: "🟧 部分停機"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
