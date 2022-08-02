@@ -59,6 +59,15 @@ status-website:
     - title: 此頁面的專案
       href: https://github.com/$OWNER/$REPO
 
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+
 i18n:
   activeIncidents: 活動事件
   allSystemsOperational: 所有系統都可以正常執行
