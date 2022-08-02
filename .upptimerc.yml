@@ -25,13 +25,11 @@ status-website:
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** 是開源的正常運行時間監控和狀態頁面<br>完全由 GitHub 提供支持。"
-  introMessage: 這是一個示例狀態頁面，它使用來自我們 [Github 存儲庫](https://github.com/koj-co/upptime) 的實時數據<br>不需要服務器——只需要 GitHub Actions、Issues 和 Pages。
+  introTitle: "歡迎來到 fez7yoe 的監控網站狀態頁面"
+  introMessage: 由於 **監控的網站名稱使用中文，造成系統無法自動產生歷史頁面、狀態圖及 README.md 的 shields.io 徽標**<br>待 Upptime 作者支援相關內容前，我先將監控的網站名稱改成易懂的英文詞句以方便辨識
   navbar:
     - title: 首頁
       href: https://fez7yoe.github.io/upptime
-    - title: 此頁面的專案
-      href: https://github.com/$OWNER/$REPO
 
 workflowSchedule:
   graphs: "0 */8 * * *"
