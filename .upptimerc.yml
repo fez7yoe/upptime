@@ -130,7 +130,7 @@ i18n:
   responseTimeWeek: "7 天正常響應時間"
   responseTimeMonth: "30 天的正常響應時間"
   responseTimeYear: "1 年的正常響應時間"
-  uptime: "全天候正常運行時間"
+  # uptime: "全天候正常運行時間"
   uptimeDay: "24 小時正常執行時間"
   uptimeWeek: "7 天正常執行時間"
   uptimeMonth: "30 天的正常執行時間"
