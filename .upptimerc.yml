@@ -137,7 +137,7 @@ i18n:
   uptimeYear: "1 年的正常執行時間"
   # liveStatus: "實時狀態"
   liveStatusHtmlComment: "<!--實時狀態-->"
-  allSystemsOperational: "🟩 正常執行"
+  # allSystemsOperational: "🟩 正常執行"
   degradedPerformance: "🟨 效能降低"
   completeOutage: "🟥 全部停機"
   partialOutage: "🟧 部分停機"
