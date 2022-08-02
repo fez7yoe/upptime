@@ -3,16 +3,40 @@ owner: fez7yoe # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
+  - name: Google - 估狗
     url: https://www.google.com
-  - name: Wikipedia
+    icon: https://www.google.com/favicon.ico
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: Wikipedia - 維基百科
     url: https://en.wikipedia.org
-  - name: Hacker News
+    icon: https://upload.wikimedia.org/wikipedia/commons/b/b0/Wikipedia-favicon.png
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: Hacker News - 駭客新聞
     url: https://news.ycombinator.com
-  - name: Test Broken Site
+    icon: https://news.ycombinator.com/y18.gif
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: Test Broken Site - 這是壞掉的例子
     url: https://thissitedoesnotexist.koj.co
-  - name: 小被被好好摸
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: 小被被好好摸 - 我的個人部落格
     url: https://fez7yoe.github.io
+    icon: https://raw.githubusercontent.com/fez7yoe/fez7yoe.github.io/master/img/favicon.png
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
