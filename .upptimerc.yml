@@ -54,7 +54,7 @@ status-website:
   introTitle: "**Upptime** 是開源的正常運行時間監控和狀態頁面<br>完全由 GitHub 提供支持。"
   introMessage: 這是一個示例狀態頁面，它使用來自我們 [Github 存儲庫](https://github.com/koj-co/upptime) 的實時數據<br>不需要服務器——只需要 GitHub Actions、Issues 和 Pages。
   navbar:
-    - title: Status
+    - title: 前往部落格
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
@@ -82,10 +82,10 @@ i18n:
   averageResponseTimeTitle: 平均響應時間
   sevelDayResponseTime: 7 天響應時間
   responseTimeMs: 響應時間（毫秒）
-  # up: 正常執行
-  # down: 停機
-  # degraded: 執行緩慢
-  # ms: 毫秒
+  up: 正常執行
+  down: 停機
+  degraded: 執行緩慢
+  ms: 毫秒
   loading: 載入中
   navGitHub: GitHub
   footer: Powered by [Upptime](https://upptime.js.org)
@@ -120,12 +120,12 @@ i18n:
   history: "歷史"
   responseTime: "響應時間"
   uptime: "正常執行時間"
-  up: "🟩 正常執行"
-  degraded: "🟨 執行緩慢"
+  # up: "🟩 正常執行"
+  # degraded: "🟨 執行緩慢"
   down: "🟥 停機"
   responseTimeGraphAlt: "響應時間圖"
   ms: "毫秒"
-  responseTime: "響應時間"
+  # responseTime: "響應時間"
   responseTimeDay: "24 小時正常響應時間"
   responseTimeWeek: "7 天正常響應時間"
   responseTimeMonth: "30 天的正常響應時間"
