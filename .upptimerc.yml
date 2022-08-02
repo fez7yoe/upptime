@@ -135,7 +135,7 @@ i18n:
   uptimeWeek: "7 天正常執行時間"
   uptimeMonth: "30 天的正常執行時間"
   uptimeYear: "1 年的正常執行時間"
-  liveStatus: "實時狀態"
+  # liveStatus: "實時狀態"
   liveStatusHtmlComment: "<!--實時狀態-->"
   allSystemsOperational: "🟩 正常執行"
   degradedPerformance: "🟨 效能降低"
