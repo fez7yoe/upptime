@@ -124,7 +124,7 @@ i18n:
   # degraded: "🟨 執行緩慢"
   # down: "🟥 停機"
   responseTimeGraphAlt: "響應時間圖"
-  ms: "毫秒"
+  # ms: "毫秒"
   # responseTime: "響應時間"
   responseTimeDay: "24 小時正常響應時間"
   responseTimeWeek: "7 天正常響應時間"
