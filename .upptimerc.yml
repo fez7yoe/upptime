@@ -23,7 +23,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "歡迎來到 fez7yoe 的監控狀態網頁"
-  introMessage: 由於 slugify 將網站名稱轉換為檔案名稱的功能不支援非拉丁字母 <br>會出現 **該監控的網站名稱輸入中文的話，會造成系統無法自動產生歷史頁面、狀態圖<br>以及 README.md 的 shields.io 徽標** 這樣的[問題](https://github.com/upptime/upptime/discussions/629) <br>在 [Upptime](https://github.com/upptime/upptime) 有相關功能的應對前，我先將監控的網站名稱改成易懂的英文詞句來方便辨識
+  introMessage: 由於 slugify 將網站名稱轉換為檔案名稱的功能不支援非拉丁字母 <br>會出現 **該監控網站名稱輸入中文的話，會造成系統無法自動產生歷史頁面、狀態圖<br>以及 README.md 的 shields.io 徽標** 這樣的[問題](https://github.com/upptime/upptime/discussions/629) <br>在 [Upptime](https://github.com/upptime/upptime) 有相關功能的應對前，監控中的網站名稱均為英文
   navbar:
     - title: 首頁
       href: https://fez7yoe.github.io/upptime
