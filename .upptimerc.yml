@@ -23,7 +23,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "歡迎來到 fez7yoe 的監控狀態網頁"
-  introMessage: 由於 slugify 將網站名稱轉換為檔案名稱的功能不支援非拉丁字母 <br>會出現 **【 該監控網站名稱為中文的話，會造成系統無法自動產生歷史頁面、狀態圖<br>以及 README.md 的 shields.io 徽標 】** 這樣的[問題](https://github.com/upptime/upptime/discussions/629) <br>在 [Upptime](https://github.com/upptime/upptime) 有相關功能的應對前，在此處監控中的網站名稱均為英文
+  introMessage: 由於 slugify 將網站名稱轉換為檔案名稱的功能不支援非拉丁字母 <br>會出現 **【 該監控網站名稱為中文的話，會造成系統無法自動產生歷史頁面、狀態圖<br>以及 README.md 的 shields.io 徽標 】** 這樣的[問題](https://github.com/upptime/upptime/discussions/629) <br>在 [Upptime](https://github.com/upptime/upptime) 有相關功能的應對前，在此處監控的網站名稱均為英文
   navbar:
     - title: 首頁
       href: https://fez7yoe.github.io/upptime
@@ -72,7 +72,7 @@ i18n:
   ms: 毫秒
   loading: 載入中
   navGitHub: GitHub
-  footer: <p><a style="width:auto;height:32px;margin-inline:5px" target="_blank" href="https://upptime.js.org"><img src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/logo.svg" title="Powered by Upptime"></a><br><br><a style="width:auto;height:32px;margin-inline:5px">最後更新時間：2022/08/26</a></p>
+  footer: <p><a style="width:auto;height:32px;margin-inline:5px" target="_blank" href="https://upptime.js.org"><img src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/logo.svg" title="Powered by Upptime"></a><br><br><a style="width:auto;height:32px;margin-inline:5px">最後更新時間：2022/08/29</a></p>
   rateLimitExceededTitle: 超出速率限制
   rateLimitExceededIntro: 您已超過一小時內可以執行的請求數，因此您必須等待才能再次訪問此網站。或者，您可以新增 GitHub 個人訪問令牌以繼續使用本網站。
   rateLimitExceededWhatDoesErrorMean: 這個錯誤是什麼意思？
