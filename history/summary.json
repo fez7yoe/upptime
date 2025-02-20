@@ -6,17 +6,15 @@
     "slug": "my-blog",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.60%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 397,
-    "timeDay": 1209,
-    "timeWeek": 611,
-    "timeMonth": 397,
-    "timeYear": 381,
-    "dailyMinutesDown": {
-      "2025-02-19": 6
-    }
+    "time": 396,
+    "timeDay": 1253,
+    "timeWeek": 606,
+    "timeMonth": 401,
+    "timeYear": 380,
+    "dailyMinutesDown": {}
   }
 ]
