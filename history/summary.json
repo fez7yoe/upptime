@@ -4,17 +4,19 @@
     "url": "https://fez7yoe.github.io",
     "icon": "https://raw.githubusercontent.com/fez7yoe/fez7yoe.github.io/master/img/favicon.png",
     "slug": "my-blog",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 389,
-    "timeDay": 293,
-    "timeWeek": 477,
-    "timeMonth": 395,
-    "timeYear": 395,
-    "dailyMinutesDown": {}
+    "timeDay": 316,
+    "timeWeek": 459,
+    "timeMonth": 393,
+    "timeYear": 396,
+    "dailyMinutesDown": {
+      "2025-07-26": 5
+    }
   }
 ]
