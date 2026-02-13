@@ -4,7 +4,7 @@
     "url": "https://fez7yoe.github.io",
     "icon": "https://raw.githubusercontent.com/fez7yoe/fez7yoe.github.io/master/img/favicon.png",
     "slug": "my-blog",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -16,6 +16,7 @@
     "timeMonth": 488,
     "timeYear": 414,
     "dailyMinutesDown": {
+      "2026-02-13": 0,
       "2025-10-20": 69,
       "2025-09-19": 21
     }
